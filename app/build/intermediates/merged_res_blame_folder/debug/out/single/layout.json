@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.badai.sqlmapautomator.app-mergeDebugResources-56:/layout/activity_disclaimer.xml",
+        "source": "com.badai.sqlmapautomator.app-main-59:/layout/activity_disclaimer.xml"
+    },
+    {
+        "merged": "com.badai.sqlmapautomator.app-mergeDebugResources-56:/layout/fragment_ai_assistant.xml",
+        "source": "com.badai.sqlmapautomator.app-main-59:/layout/fragment_ai_assistant.xml"
+    },
+    {
+        "merged": "com.badai.sqlmapautomator.app-mergeDebugResources-56:/layout/fragment_home.xml",
+        "source": "com.badai.sqlmapautomator.app-main-59:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.badai.sqlmapautomator.app-mergeDebugResources-56:/layout/item_chat_assistant.xml",
+        "source": "com.badai.sqlmapautomator.app-main-59:/layout/item_chat_assistant.xml"
+    },
+    {
+        "merged": "com.badai.sqlmapautomator.app-mergeDebugResources-56:/layout/activity_main.xml",
+        "source": "com.badai.sqlmapautomator.app-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.badai.sqlmapautomator.app-mergeDebugResources-56:/layout/fragment_results.xml",
+        "source": "com.badai.sqlmapautomator.app-main-59:/layout/fragment_results.xml"
+    },
+    {
+        "merged": "com.badai.sqlmapautomator.app-mergeDebugResources-56:/layout/item_scan_result.xml",
+        "source": "com.badai.sqlmapautomator.app-main-59:/layout/item_scan_result.xml"
+    },
+    {
+        "merged": "com.badai.sqlmapautomator.app-mergeDebugResources-56:/layout/item_chat_user.xml",
+        "source": "com.badai.sqlmapautomator.app-main-59:/layout/item_chat_user.xml"
+    },
+    {
+        "merged": "com.badai.sqlmapautomator.app-mergeDebugResources-56:/layout/fragment_scanner.xml",
+        "source": "com.badai.sqlmapautomator.app-main-59:/layout/fragment_scanner.xml"
+    }
+]

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text Appearances -->
+    <style name="TextAppearance.BadAI.Headline" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.BadAI.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.BadAI.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.BadAI.Caption" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textColor">@color/text_hint</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Widget.BadAI.Button" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Widget.BadAI.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Widget.BadAI.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="Widget.BadAI.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="strokeColor">@color/border_color</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="Widget.BadAI.Card.Outlined" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="strokeColor">@color/border_color</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <!-- Input Styles -->
+    <style name="Widget.BadAI.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+
+    <!-- Chip Styles -->
+    <style name="Widget.BadAI.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/surface_variant</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="chipStrokeColor">@color/border_color</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">16dp</item>
+    </style>
+
+    <!-- Progress Bar Styles -->
+    <style name="Widget.BadAI.ProgressBar" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="trackColor">@color/surface_variant</item>
+        <item name="indicatorColor">@color/primary</item>
+        <item name="trackThickness">4dp</item>
+        <item name="trackCornerRadius">2dp</item>
+    </style>
+
+    <!-- Switch Styles -->
+    <style name="Widget.BadAI.Switch" parent="Widget.Material3.CompoundButton.Switch">
+        <item name="thumbTint">@color/switch_thumb_selector</item>
+        <item name="trackTint">@color/switch_track_selector</item>
+    </style>
+
+    <!-- Toolbar Styles -->
+    <style name="Widget.BadAI.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/surface</item>
+        <item name="titleTextColor">@color/text_primary</item>
+        <item name="subtitleTextColor">@color/text_secondary</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- Bottom Navigation Styles -->
+    <style name="Widget.BadAI.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/surface</item>
+        <item name="itemIconTint">@color/bottom_navigation_selector</item>
+        <item name="itemTextColor">@color/bottom_navigation_selector</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <!-- FAB Styles -->
+    <style name="Widget.BadAI.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="tint">@color/on_primary</item>
+        <item name="android:elevation">6dp</item>
+    </style>
+
+    <!-- Dialog Styles -->
+    <style name="ThemeOverlay.BadAI.Dialog" parent="ThemeOverlay.Material3.Dialog">
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+    </style>
+
+    <!-- Alert Dialog Styles -->
+    <style name="ThemeOverlay.BadAI.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/TextAppearance.BadAI.Title</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/TextAppearance.BadAI.Body</item>
+    </style>
+</resources>

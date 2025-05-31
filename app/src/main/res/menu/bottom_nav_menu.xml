@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/nav_home" />
+
+    <item
+        android:id="@+id/navigation_scanner"
+        android:icon="@drawable/ic_scanner"
+        android:title="@string/nav_scanner" />
+
+    <item
+        android:id="@+id/navigation_templates"
+        android:icon="@drawable/ic_templates"
+        android:title="@string/nav_templates" />
+
+    <item
+        android:id="@+id/navigation_results"
+        android:icon="@drawable/ic_results"
+        android:title="@string/nav_results" />
+
+    <item
+        android:id="@+id/navigation_ai_assistant"
+        android:icon="@drawable/ic_ai_assistant"
+        android:title="AI Assistant" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/nav_settings" />
+</menu>

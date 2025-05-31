@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BADAI SQLMap Automator</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_scanner">Escáner</string>
+    <string name="nav_templates">Templates</string>
+    <string name="nav_results">Resultados</string>
+    <string name="nav_settings">Configuración</string>
+    
+    <!-- Home -->
+    <string name="home_title">BADAI SQLMap Automator</string>
+    <string name="home_subtitle">Automatización completa de SQLMap</string>
+    <string name="home_warning_title">⚠️ ADVERTENCIA LEGAL ⚠️</string>
+    <string name="home_warning_text">Esta herramienta debe usarse únicamente en sistemas propios o con autorización explícita. El uso no autorizado es ilegal.</string>
+    <string name="home_accept_terms">Acepto los términos y condiciones</string>
+    <string name="home_start_scan">Iniciar Escaneo</string>
+    <string name="home_quick_scan">Escaneo Rápido</string>
+    <string name="home_advanced_scan">Escaneo Avanzado</string>
+    
+    <!-- Scanner -->
+    <string name="scanner_title">Configuración de Escaneo</string>
+    <string name="scanner_target_url">URL Objetivo</string>
+    <string name="scanner_target_url_hint">https://ejemplo.com/vulnerable.php?id=1</string>
+    <string name="scanner_method">Método HTTP</string>
+    <string name="scanner_data">Datos POST (opcional)</string>
+    <string name="scanner_cookies">Cookies (opcional)</string>
+    <string name="scanner_headers">Headers personalizados</string>
+    <string name="scanner_user_agent">User Agent</string>
+    <string name="scanner_proxy">Proxy (opcional)</string>
+    <string name="scanner_threads">Hilos</string>
+    <string name="scanner_delay">Delay (segundos)</string>
+    <string name="scanner_timeout">Timeout (segundos)</string>
+    <string name="scanner_level">Nivel de pruebas</string>
+    <string name="scanner_risk">Nivel de riesgo</string>
+    <string name="scanner_technique">Técnicas</string>
+    <string name="scanner_dbms">DBMS objetivo</string>
+    <string name="scanner_os">OS objetivo</string>
+    <string name="scanner_start">Iniciar Escaneo</string>
+    <string name="scanner_save_config">Guardar Configuración</string>
+    <string name="scanner_load_config">Cargar Configuración</string>
+    
+    <!-- Templates -->
+    <string name="templates_title">Templates de Ataque</string>
+    <string name="template_basic">Básico</string>
+    <string name="template_advanced">Avanzado</string>
+    <string name="template_blind">Blind SQL Injection</string>
+    <string name="template_union">UNION-based</string>
+    <string name="template_time">Time-based</string>
+    <string name="template_error">Error-based</string>
+    <string name="template_boolean">Boolean-based</string>
+    <string name="template_custom">Personalizado</string>
+    
+    <!-- Results -->
+    <string name="results_title">Resultados de Escaneos</string>
+    <string name="results_empty">No hay resultados disponibles</string>
+    <string name="results_export">Exportar</string>
+    <string name="results_delete">Eliminar</string>
+    <string name="results_view">Ver Detalles</string>
+    <string name="results_share">Compartir</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Configuración</string>
+    <string name="settings_termux_path">Ruta de Termux</string>
+    <string name="settings_sqlmap_path">Ruta de SQLMap</string>
+    <string name="settings_output_path">Directorio de salida</string>
+    <string name="settings_auto_export">Auto-exportar resultados</string>
+    <string name="settings_notifications">Notificaciones</string>
+    <string name="settings_dark_theme">Tema oscuro</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_about">Acerca de</string>
+    <string name="settings_legal">Información legal</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="share">Compartir</string>
+    <string name="export">Exportar</string>
+    <string name="import_data">Importar</string>
+    <string name="loading">Cargando...</string>
+    <string name="error">Error</string>
+    <string name="success">Éxito</string>
+    <string name="warning">Advertencia</string>
+    <string name="info">Información</string>
+    
+    <!-- Errors -->
+    <string name="error_invalid_url">URL inválida</string>
+    <string name="error_termux_not_found">Termux no encontrado</string>
+    <string name="error_sqlmap_not_found">SQLMap no encontrado</string>
+    <string name="error_permission_denied">Permisos denegados</string>
+    <string name="error_network">Error de red</string>
+    <string name="error_scan_failed">Escaneo fallido</string>
+    
+    <!-- Status -->
+    <string name="status_idle">Inactivo</string>
+    <string name="status_scanning">Escaneando...</string>
+    <string name="status_completed">Completado</string>
+    <string name="status_failed">Fallido</string>
+    <string name="status_cancelled">Cancelado</string>
+    
+    <!-- Legal -->
+    <string name="legal_title">Información Legal</string>
+    <string name="legal_info">Información Legal</string>
+    <string name="legal_disclaimer">Esta aplicación está diseñada exclusivamente para pruebas de penetración autorizadas, auditorías de seguridad en sistemas propios y fines educativos. El uso no autorizado es ilegal y puede resultar en consecuencias legales graves.</string>
+    <string name="legal_responsibility">El usuario es completamente responsable del uso de esta herramienta. El desarrollador no se hace responsable de ningún daño o consecuencia legal derivada del uso indebido.</string>
+    <string name="legal_accept">Entiendo y acepto</string>
+    <string name="legal_decline">No acepto</string>
+    
+    <!-- Emergency -->
+    <string name="emergency_stop">Parada de Emergencia</string>
+</resources>

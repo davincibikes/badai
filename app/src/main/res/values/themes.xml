@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Dark Theme -->
+    <style name="Theme.BADAISQLMapAutomator" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_inverse</item>
+        
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_variant</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        
+        <!-- Background Colors -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <!-- Error Colors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/text_primary</item>
+        
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        
+        <!-- Navigation Bar -->
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">false</item>
+        
+        <!-- Window Background -->
+        <item name="android:windowBackground">@color/background</item>
+        
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+
+    <!-- Text Appearances -->
+    <style name="TextAppearance.Title" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">monospace</item>
+    </style>
+
+    <style name="TextAppearance.Subtitle" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="fontFamily">monospace</item>
+    </style>
+
+    <style name="TextAppearance.Warning" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/warning</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Error" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/error</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Success" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/success</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/text_inverse</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="Button.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/border_color</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">monospace</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <style name="Button.Danger" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/error</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="Button.Success" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/success</item>
+        <item name="android:textColor">@color/text_inverse</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="Card.Dark" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">12dp</item>
+        <item name="contentPadding">20dp</item>
+        <item name="android:layout_margin">12dp</item>
+    </style>
+
+    <!-- Input Styles -->
+    <style name="TextInputLayout.Dark" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="hintTextColor">@color/text_hint</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+
+    <!-- Toolbar Style -->
+    <style name="Toolbar.Dark" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/surface</item>
+        <item name="titleTextColor">@color/text_primary</item>
+        <item name="subtitleTextColor">@color/text_secondary</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <!-- Bottom Navigation Style -->
+    <style name="BottomNavigation.Dark" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/surface</item>
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+        <item name="elevation">16dp</item>
+        <item name="itemRippleColor">@color/primary</item>
+    </style>
+
+    <!-- Progress Bar Style -->
+    <style name="ProgressBar.Horizontal" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressTint">@color/primary</item>
+        <item name="android:progressBackgroundTint">@color/surface_variant</item>
+        <item name="android:indeterminateTint">@color/primary</item>
+    </style>
+
+    <!-- Chip Style -->
+    <style name="Chip.Dark" parent="Widget.Material3.Chip.Suggestion">
+        <item name="chipBackgroundColor">@color/surface_variant</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="chipStrokeColor">@color/border_color</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">20dp</item>
+    </style>
+
+    <!-- Switch Style -->
+    <style name="Switch.Dark" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="thumbTint">@color/switch_thumb_color</item>
+        <item name="trackTint">@color/switch_track_color</item>
+    </style>
+
+    <!-- FAB Style -->
+    <style name="FloatingActionButton.Dark" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="tint">@color/text_inverse</item>
+        <item name="android:elevation">16dp</item>
+    </style>
+</resources>

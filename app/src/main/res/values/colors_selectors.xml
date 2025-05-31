@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bottom Navigation Color Selector -->
+    <color name="bottom_nav_color">@color/bottom_nav_selector</color>
+    
+    <!-- Switch Color Selectors -->
+    <color name="switch_thumb_color">@color/switch_thumb_selector</color>
+    <color name="switch_track_color">@color/switch_track_selector</color>
+</resources>

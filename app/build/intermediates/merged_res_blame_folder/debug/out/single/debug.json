@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_ic_download.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/ic_download.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/layout_fragment_ai_assistant.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/layout/fragment_ai_assistant.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_ic_search.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/menu_main_menu.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/menu/main_menu.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_ic_ai_assistant.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/ic_ai_assistant.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/color_switch_track_selector.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/color/switch_track_selector.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/layout_item_chat_assistant.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/layout/item_chat_assistant.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_ic_settings.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/xml_backup_rules.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_ic_security.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/ic_security.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/layout_fragment_scanner.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/layout/fragment_scanner.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_chat_bubble_user.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/chat_bubble_user.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_ic_results.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/ic_results.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/color_bottom_navigation_selector.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/color/bottom_navigation_selector.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/color_switch_thumb_selector.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/color/switch_thumb_selector.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/color_bottom_nav_selector.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/color/bottom_nav_selector.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/layout_activity_main.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_button_round_secondary.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/button_round_secondary.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_dialog_background.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/dialog_background.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_ic_mic.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/ic_mic.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/xml_data_extraction_rules.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_button_round_primary.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/button_round_primary.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/layout_fragment_home.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_ic_templates.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/ic_templates.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/layout_item_chat_user.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/layout/item_chat_user.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_ic_stop.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/ic_stop.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/layout_item_scan_result.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/layout/item_scan_result.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_ic_send.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/ic_send.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/layout_activity_disclaimer.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/layout/activity_disclaimer.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/layout_fragment_results.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/layout/fragment_results.xml"
+    },
+    {
+        "merged": "com.badai.sqlmapautomator.app-merged_res-57:/drawable_card_background.xml.flat",
+        "source": "com.badai.sqlmapautomator.app-main-59:/drawable/card_background.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_ic_info.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_chat_bubble_assistant.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/chat_bubble_assistant.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_ic_home.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_ic_scanner.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/ic_scanner.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/menu_bottom_nav_menu.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/navigation_mobile_navigation.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-merged_res-57:/drawable_risk_background.xml.flat",
+        "source": "/root/.gradle/daemon/8.0/com.badai.sqlmapautomator.app-main-59:/drawable/risk_background.xml"
+    }
+]

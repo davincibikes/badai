@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="accent">#FFFF3D00</color>
+    <color name="accent_color">#FFFF3D00</color>
+    <color name="accent_variant">#FFFF6E40</color>
+    <color name="background">#FF0A0A0A</color>
+    <color name="background_dark">#FF0A0A0A</color>
+    <color name="background_secondary">#FF121212</color>
+    <color name="black">#FF000000</color>
+    <color name="border_color">#FF333333</color>
+    <color name="bottom_nav_color">@color/bottom_nav_selector</color>
+    <color name="card_background">#FF1A1A1A</color>
+    <color name="divider_color">#FF2A2A2A</color>
+    <color name="error">#FFFF5252</color>
+    <color name="error_dark">#FFD32F2F</color>
+    <color name="gradient_end">#FF1E1E1E</color>
+    <color name="gradient_start">#FF0A0A0A</color>
+    <color name="info">#FF00BCD4</color>
+    <color name="info_dark">#FF0097A7</color>
+    <color name="neon_blue">#FF00E5FF</color>
+    <color name="neon_green">#FF00FF41</color>
+    <color name="neon_orange">#FFFF6D00</color>
+    <color name="neon_purple">#FFE040FB</color>
+    <color name="on_error">#FFFFFFFF</color>
+    <color name="on_primary">#FF000000</color>
+    <color name="on_surface">#FFFFFFFF</color>
+    <color name="on_surface_variant">#B3FFFFFF</color>
+    <color name="outline">#FF333333</color>
+    <color name="outline_variant">#FF2A2A2A</color>
+    <color name="overlay_dark">#80000000</color>
+    <color name="overlay_light">#4DFFFFFF</color>
+    <color name="primary">#FF00E676</color>
+    <color name="primary_dark">#FF00C853</color>
+    <color name="primary_variant">#FF1DE9B6</color>
+    <color name="status_cancelled">#FFFF9800</color>
+    <color name="status_completed">#FF4CAF50</color>
+    <color name="status_failed">#FFFF5252</color>
+    <color name="status_idle">#FF616161</color>
+    <color name="status_safe">#FF00E676</color>
+    <color name="status_scanning">#FF00E5FF</color>
+    <color name="status_vulnerable">#FFFF3D00</color>
+    <color name="success">#FF4CAF50</color>
+    <color name="success_dark">#FF2E7D32</color>
+    <color name="surface">#FF1E1E1E</color>
+    <color name="surface_variant">#FF2A2A2A</color>
+    <color name="switch_thumb_color">@color/switch_thumb_selector</color>
+    <color name="switch_track_color">@color/switch_track_selector</color>
+    <color name="tertiary">#FFBB86FC</color>
+    <color name="tertiary_container">#FF3700B3</color>
+    <color name="text_disabled">#4DFFFFFF</color>
+    <color name="text_hint">#80FFFFFF</color>
+    <color name="text_inverse">#FF000000</color>
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="warning">#FFFF9800</color>
+    <color name="warning_dark">#FFF57C00</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">BADAI SQLMap Automator</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="emergency_stop">Parada de Emergencia</string>
+    <string name="error">Error</string>
+    <string name="error_invalid_url">URL inválida</string>
+    <string name="error_network">Error de red</string>
+    <string name="error_permission_denied">Permisos denegados</string>
+    <string name="error_scan_failed">Escaneo fallido</string>
+    <string name="error_sqlmap_not_found">SQLMap no encontrado</string>
+    <string name="error_termux_not_found">Termux no encontrado</string>
+    <string name="export">Exportar</string>
+    <string name="home_accept_terms">Acepto los términos y condiciones</string>
+    <string name="home_advanced_scan">Escaneo Avanzado</string>
+    <string name="home_quick_scan">Escaneo Rápido</string>
+    <string name="home_start_scan">Iniciar Escaneo</string>
+    <string name="home_subtitle">Automatización completa de SQLMap</string>
+    <string name="home_title">BADAI SQLMap Automator</string>
+    <string name="home_warning_text">Esta herramienta debe usarse únicamente en sistemas propios o con autorización explícita. El uso no autorizado es ilegal.</string>
+    <string name="home_warning_title">⚠️ ADVERTENCIA LEGAL ⚠️</string>
+    <string name="import_data">Importar</string>
+    <string name="info">Información</string>
+    <string name="legal_accept">Entiendo y acepto</string>
+    <string name="legal_decline">No acepto</string>
+    <string name="legal_disclaimer">Esta aplicación está diseñada exclusivamente para pruebas de penetración autorizadas, auditorías de seguridad en sistemas propios y fines educativos. El uso no autorizado es ilegal y puede resultar en consecuencias legales graves.</string>
+    <string name="legal_info">Información Legal</string>
+    <string name="legal_responsibility">El usuario es completamente responsable del uso de esta herramienta. El desarrollador no se hace responsable de ningún daño o consecuencia legal derivada del uso indebido.</string>
+    <string name="legal_title">Información Legal</string>
+    <string name="loading">Cargando...</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_results">Resultados</string>
+    <string name="nav_scanner">Escáner</string>
+    <string name="nav_settings">Configuración</string>
+    <string name="nav_templates">Templates</string>
+    <string name="ok">OK</string>
+    <string name="results_delete">Eliminar</string>
+    <string name="results_empty">No hay resultados disponibles</string>
+    <string name="results_export">Exportar</string>
+    <string name="results_share">Compartir</string>
+    <string name="results_title">Resultados de Escaneos</string>
+    <string name="results_view">Ver Detalles</string>
+    <string name="save">Guardar</string>
+    <string name="scanner_cookies">Cookies (opcional)</string>
+    <string name="scanner_data">Datos POST (opcional)</string>
+    <string name="scanner_dbms">DBMS objetivo</string>
+    <string name="scanner_delay">Delay (segundos)</string>
+    <string name="scanner_headers">Headers personalizados</string>
+    <string name="scanner_level">Nivel de pruebas</string>
+    <string name="scanner_load_config">Cargar Configuración</string>
+    <string name="scanner_method">Método HTTP</string>
+    <string name="scanner_os">OS objetivo</string>
+    <string name="scanner_proxy">Proxy (opcional)</string>
+    <string name="scanner_risk">Nivel de riesgo</string>
+    <string name="scanner_save_config">Guardar Configuración</string>
+    <string name="scanner_start">Iniciar Escaneo</string>
+    <string name="scanner_target_url">URL Objetivo</string>
+    <string name="scanner_target_url_hint">https://ejemplo.com/vulnerable.php?id=1</string>
+    <string name="scanner_technique">Técnicas</string>
+    <string name="scanner_threads">Hilos</string>
+    <string name="scanner_timeout">Timeout (segundos)</string>
+    <string name="scanner_title">Configuración de Escaneo</string>
+    <string name="scanner_user_agent">User Agent</string>
+    <string name="settings_about">Acerca de</string>
+    <string name="settings_auto_export">Auto-exportar resultados</string>
+    <string name="settings_dark_theme">Tema oscuro</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_legal">Información legal</string>
+    <string name="settings_notifications">Notificaciones</string>
+    <string name="settings_output_path">Directorio de salida</string>
+    <string name="settings_sqlmap_path">Ruta de SQLMap</string>
+    <string name="settings_termux_path">Ruta de Termux</string>
+    <string name="settings_title">Configuración</string>
+    <string name="share">Compartir</string>
+    <string name="status_cancelled">Cancelado</string>
+    <string name="status_completed">Completado</string>
+    <string name="status_failed">Fallido</string>
+    <string name="status_idle">Inactivo</string>
+    <string name="status_scanning">Escaneando...</string>
+    <string name="success">Éxito</string>
+    <string name="template_advanced">Avanzado</string>
+    <string name="template_basic">Básico</string>
+    <string name="template_blind">Blind SQL Injection</string>
+    <string name="template_boolean">Boolean-based</string>
+    <string name="template_custom">Personalizado</string>
+    <string name="template_error">Error-based</string>
+    <string name="template_time">Time-based</string>
+    <string name="template_union">UNION-based</string>
+    <string name="templates_title">Templates de Ataque</string>
+    <string name="warning">Advertencia</string>
+    <style name="BottomNavigation.Dark" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/surface</item>
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+        <item name="elevation">16dp</item>
+        <item name="itemRippleColor">@color/primary</item>
+    </style>
+    <style name="Button.Danger" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/error</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+    <style name="Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/text_inverse</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+    <style name="Button.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/border_color</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">monospace</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+    <style name="Button.Success" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/success</item>
+        <item name="android:textColor">@color/text_inverse</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+    <style name="Card.Dark" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">12dp</item>
+        <item name="contentPadding">20dp</item>
+        <item name="android:layout_margin">12dp</item>
+    </style>
+    <style name="Chip.Dark" parent="Widget.Material3.Chip.Suggestion">
+        <item name="chipBackgroundColor">@color/surface_variant</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="chipStrokeColor">@color/border_color</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">20dp</item>
+    </style>
+    <style name="FloatingActionButton.Dark" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="tint">@color/text_inverse</item>
+        <item name="android:elevation">16dp</item>
+    </style>
+    <style name="ProgressBar.Horizontal" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressTint">@color/primary</item>
+        <item name="android:progressBackgroundTint">@color/surface_variant</item>
+        <item name="android:indeterminateTint">@color/primary</item>
+    </style>
+    <style name="Switch.Dark" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="thumbTint">@color/switch_thumb_color</item>
+        <item name="trackTint">@color/switch_track_color</item>
+    </style>
+    <style name="TextAppearance.BadAI.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.BadAI.Caption" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textColor">@color/text_hint</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.BadAI.Headline" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.BadAI.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.Error" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/error</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.Subtitle" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="fontFamily">monospace</item>
+    </style>
+    <style name="TextAppearance.Success" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/success</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.Title" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">monospace</item>
+    </style>
+    <style name="TextAppearance.Warning" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/warning</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextInputLayout.Dark" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="hintTextColor">@color/text_hint</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+    <style name="Theme.BADAISQLMapAutomator" parent="Theme.Material3.Dark.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_inverse</item>
+        
+        
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_variant</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        
+        
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/text_primary</item>
+        
+        
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+        
+        
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o">false</item>
+        
+        
+        <item name="android:windowBackground">@color/background</item>
+        
+        
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+    <style name="ThemeOverlay.BadAI.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/TextAppearance.BadAI.Title</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/TextAppearance.BadAI.Body</item>
+    </style>
+    <style name="ThemeOverlay.BadAI.Dialog" parent="ThemeOverlay.Material3.Dialog">
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+    </style>
+    <style name="Toolbar.Dark" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/surface</item>
+        <item name="titleTextColor">@color/text_primary</item>
+        <item name="subtitleTextColor">@color/text_secondary</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+    <style name="Widget.BadAI.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/surface</item>
+        <item name="itemIconTint">@color/bottom_navigation_selector</item>
+        <item name="itemTextColor">@color/bottom_navigation_selector</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+    <style name="Widget.BadAI.Button" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Widget.BadAI.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Widget.BadAI.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Widget.BadAI.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="strokeColor">@color/border_color</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    <style name="Widget.BadAI.Card.Outlined" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="strokeColor">@color/border_color</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+    <style name="Widget.BadAI.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/surface_variant</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="chipStrokeColor">@color/border_color</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">16dp</item>
+    </style>
+    <style name="Widget.BadAI.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="tint">@color/on_primary</item>
+        <item name="android:elevation">6dp</item>
+    </style>
+    <style name="Widget.BadAI.ProgressBar" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="trackColor">@color/surface_variant</item>
+        <item name="indicatorColor">@color/primary</item>
+        <item name="trackThickness">4dp</item>
+        <item name="trackCornerRadius">2dp</item>
+    </style>
+    <style name="Widget.BadAI.Switch" parent="Widget.Material3.CompoundButton.Switch">
+        <item name="thumbTint">@color/switch_thumb_selector</item>
+        <item name="trackTint">@color/switch_track_selector</item>
+    </style>
+    <style name="Widget.BadAI.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+    <style name="Widget.BadAI.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/surface</item>
+        <item name="titleTextColor">@color/text_primary</item>
+        <item name="subtitleTextColor">@color/text_secondary</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+</resources>

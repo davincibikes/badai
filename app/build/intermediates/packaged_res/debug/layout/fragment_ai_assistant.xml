@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_dark"
+    android:padding="16dp">
+
+    <!-- Header del AI Assistant -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        android:background="@drawable/card_background"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_ai_assistant"
+            android:tint="@color/accent_color"
+            android:layout_marginEnd="12dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AI Assistant"
+                android:textColor="@color/text_primary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Listo"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_settings"
+            android:tint="@color/text_secondary"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="4dp" />
+
+    </LinearLayout>
+
+    <!-- Área de chat -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp" />
+
+    <!-- Barra de progreso -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginBottom="8dp"
+        android:progressTint="@color/accent_color"
+        android:visibility="gone" />
+
+    <!-- Área de entrada de mensaje -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/card_background"
+        android:padding="8dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            app:boxBackgroundMode="none"
+            app:hintTextColor="@color/text_secondary">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/messageInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Escribe tu comando aquí..."
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary"
+                android:background="@android:color/transparent"
+                android:maxLines="3"
+                android:inputType="textMultiLine|textCapSentences"
+                android:imeOptions="actionSend" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/voiceButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_mic"
+            android:background="@drawable/button_round_secondary"
+            android:tint="@color/text_secondary"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Comando de voz" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/button_round_primary"
+            android:drawableStart="@drawable/ic_send"
+            android:drawableTint="@color/white"
+            android:contentDescription="Enviar mensaje" />
+
+    </LinearLayout>
+
+    <!-- Comandos rápidos -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="4dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="help"
+                android:layout_marginEnd="8dp"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipStrokeColor="@color/accent_color"
+                app:chipStrokeWidth="1dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipScan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scan target"
+                android:layout_marginEnd="8dp"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipStrokeColor="@color/accent_color"
+                app:chipStrokeWidth="1dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipDiscover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="discover targets"
+                android:layout_marginEnd="8dp"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipStrokeColor="@color/accent_color"
+                app:chipStrokeWidth="1dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipInstall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="install tools"
+                android:layout_marginEnd="8dp"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipStrokeColor="@color/accent_color"
+                app:chipStrokeWidth="1dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="generate report"
+                android:layout_marginEnd="8dp"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipStrokeColor="@color/accent_color"
+                app:chipStrokeWidth="1dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipConfig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="config"
+                app:chipBackgroundColor="@color/surface_variant"
+                app:chipStrokeColor="@color/accent_color"
+                app:chipStrokeWidth="1dp" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

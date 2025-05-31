@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.badai.sqlmapautomator.ui.fragments.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_scanner"
+        android:name="com.badai.sqlmapautomator.ui.fragments.ScannerFragment"
+        android:label="@string/nav_scanner"
+        tools:layout="@layout/fragment_scanner" />
+
+    <fragment
+        android:id="@+id/navigation_templates"
+        android:name="com.badai.sqlmapautomator.ui.fragments.TemplatesFragment"
+        android:label="@string/nav_templates"
+        tools:layout="@layout/fragment_templates" />
+
+    <fragment
+        android:id="@+id/navigation_results"
+        android:name="com.badai.sqlmapautomator.ui.fragments.ResultsFragment"
+        android:label="@string/nav_results"
+        tools:layout="@layout/fragment_results" />
+
+    <fragment
+        android:id="@+id/navigation_ai_assistant"
+        android:name="com.badai.sqlmapautomator.ui.fragments.AIAssistantFragment"
+        android:label="AI Assistant"
+        tools:layout="@layout/fragment_ai_assistant" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.badai.sqlmapautomator.ui.fragments.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Dark Theme Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Dark Theme Primary Colors -->
+    <color name="primary">#FF00E676</color>
+    <color name="primary_dark">#FF00C853</color>
+    <color name="primary_variant">#FF1DE9B6</color>
+    <color name="accent">#FFFF3D00</color>
+    <color name="accent_variant">#FFFF6E40</color>
+    
+    <!-- Dark Backgrounds -->
+    <color name="background">#FF0A0A0A</color>
+    <color name="background_secondary">#FF121212</color>
+    <color name="surface">#FF1E1E1E</color>
+    <color name="surface_variant">#FF2A2A2A</color>
+    <color name="card_background">#FF1A1A1A</color>
+    
+    <!-- Status Colors -->
+    <color name="error">#FFFF5252</color>
+    <color name="error_dark">#FFD32F2F</color>
+    <color name="warning">#FFFF9800</color>
+    <color name="warning_dark">#FFF57C00</color>
+    <color name="success">#FF4CAF50</color>
+    <color name="success_dark">#FF2E7D32</color>
+    <color name="info">#FF00BCD4</color>
+    <color name="info_dark">#FF0097A7</color>
+    
+    <!-- Text Colors for Dark Theme -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="text_hint">#80FFFFFF</color>
+    <color name="text_disabled">#4DFFFFFF</color>
+    <color name="text_inverse">#FF000000</color>
+    
+    <!-- Accent Colors -->
+    <color name="neon_green">#FF00FF41</color>
+    <color name="neon_blue">#FF00E5FF</color>
+    <color name="neon_purple">#FFE040FB</color>
+    <color name="neon_orange">#FFFF6D00</color>
+    
+    <!-- Status Indicator Colors -->
+    <color name="status_idle">#FF616161</color>
+    <color name="status_scanning">#FF00E5FF</color>
+    <color name="status_vulnerable">#FFFF3D00</color>
+    <color name="status_safe">#FF00E676</color>
+    <color name="status_completed">#FF4CAF50</color>
+    <color name="status_failed">#FFFF5252</color>
+    <color name="status_cancelled">#FFFF9800</color>
+    
+    <!-- Border and Divider Colors -->
+    <color name="border_color">#FF333333</color>
+    <color name="divider_color">#FF2A2A2A</color>
+    
+    <!-- Overlay Colors -->
+    <color name="overlay_dark">#80000000</color>
+    <color name="overlay_light">#4DFFFFFF</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#FF0A0A0A</color>
+    <color name="gradient_end">#FF1E1E1E</color>
+    
+    <!-- Material 3 Colors -->
+    <color name="on_surface">#FFFFFFFF</color>
+    <color name="on_surface_variant">#B3FFFFFF</color>
+    <color name="outline">#FF333333</color>
+    <color name="outline_variant">#FF2A2A2A</color>
+    <color name="tertiary">#FFBB86FC</color>
+    <color name="tertiary_container">#FF3700B3</color>
+    <color name="on_primary">#FF000000</color>
+    <color name="on_error">#FFFFFFFF</color>
+    
+    <!-- Missing Colors -->
+    <color name="accent_color">#FFFF3D00</color>
+    <color name="background_dark">#FF0A0A0A</color>
+</resources>

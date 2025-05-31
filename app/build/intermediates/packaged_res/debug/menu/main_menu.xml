@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/action_emergency_stop"
+        android:icon="@drawable/ic_stop"
+        android:title="@string/emergency_stop"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_legal_info"
+        android:icon="@drawable/ic_info"
+        android:title="@string/legal_info"
+        app:showAsAction="never" />
+    
+</menu>
