@@ -1,5 +1,21 @@
 # BadAI - AI-Powered SQLMap Automation Suite
 
+[![Release](https://img.shields.io/github/v/release/davincibikes/badai?include_prereleases)](https://github.com/davincibikes/badai/releases)
+[![APK Size](https://img.shields.io/badge/APK%20Size-6.8MB-blue)](./BadAI-v1.0.0-alpha.apk)
+[![Android](https://img.shields.io/badge/Android-7.0%2B-green)](https://developer.android.com/about/versions/nougat)
+[![License](https://img.shields.io/badge/License-Educational%20Only-red)](LICENSE)
+
+## 📋 Current Status
+
+**✅ ALPHA RELEASE v1.0.0 - APK READY FOR TESTING**
+
+- **APK Generated**: [BadAI-v1.0.0-alpha.apk](./BadAI-v1.0.0-alpha.apk) (6.8MB)
+- **Build Status**: ✅ Successful compilation
+- **Architecture**: Minimal functional version for testing
+- **Configuration**: Embedded within APK (no external files needed)
+- **UI**: Complete dark minimalist Material 3 theme
+- **Features**: Basic structure with embedded terminal and AI assistant placeholders
+
 **⚠️ LEGAL WARNING ⚠️**
 
 This application is designed exclusively for:
@@ -94,11 +110,14 @@ automation/
 
 ### Method 1: APK Installation (Recommended)
 ```bash
-# Download latest APK
-wget https://github.com/davincibikes/badai/releases/latest/download/badai.apk
+# Download latest APK from releases
+wget https://github.com/davincibikes/badai/releases/latest/download/BadAI-v1.0.0-alpha.apk
+
+# Or download directly from repository
+wget https://github.com/davincibikes/badai/raw/main/BadAI-v1.0.0-alpha.apk
 
 # Install APK
-adb install badai.apk
+adb install BadAI-v1.0.0-alpha.apk
 ```
 
 ### Method 2: Build from Source
@@ -110,9 +129,14 @@ cd badai
 # Build APK
 ./gradlew assembleDebug
 
+# APK generated at: app/build/outputs/apk/debug/app-debug.apk
 # Install
 adb install app/build/outputs/apk/debug/app-debug.apk
 ```
+
+### Direct Download
+- **Latest APK**: [BadAI-v1.0.0-alpha.apk](./BadAI-v1.0.0-alpha.apk) (6.8MB)
+- **Release Page**: [GitHub Releases](https://github.com/davincibikes/badai/releases)
 
 ### Termux Setup (Automatic)
 The app automatically installs required tools:
